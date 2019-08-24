@@ -55,14 +55,20 @@ body {
 }
 
 .display {
-  background-color: green;
+  background-color: grey;
+}
+
+.display-text {
+  font-size: 30px;
+  color: white;
 }
 
 .display .display-text h1 {
-  background-color: red;
+  margin: 0;
   padding: 0;
 }
 
 .display .display-text h3 {
-  background-color: blue;
+  margin: 0;
+  padding: 0;
 }
