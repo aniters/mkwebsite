@@ -37,6 +37,7 @@ body {
 .nav ul{
   margin: auto;
   padding-left: 0;
+  padding-right: 50px;
   height: 100%;
   text-align: right;
 }
@@ -46,9 +47,22 @@ body {
   padding: 21px 20px;
   margin-right: -4px;
   color: white;
-  background: blue;
 }
 
 .nav ul li:hover {
   background-color: white;
+  color: black;
+}
+
+.display {
+  background-color: green;
+}
+
+.display .display-text h1 {
+  background-color: red;
+  padding: 0;
+}
+
+.display .display-text h3 {
+  background-color: blue;
 }
