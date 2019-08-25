@@ -84,10 +84,10 @@ body {
   padding: 0px 100px;
 }
 
-.news-events h4 {
+.news-events h2 {
   font-family: 'Roboto Condensed', sans-serif;
-  padding-top: 30px;
-  font-size: 30px;
+  padding: 20px 0;
+  font-size: 40px;
   margin: 0;
 }
 
