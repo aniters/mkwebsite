@@ -82,8 +82,7 @@ body {
 
 .news-events {
   height: 50%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0px 100px;
 }
 
 .news-events h4 {
