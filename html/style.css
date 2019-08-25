@@ -83,6 +83,7 @@ body {
 .news-events {
   height: 50%;
   padding-left: 100px;
+  padding-right: 100px;
 }
 
 .news-events h4 {
@@ -90,4 +91,12 @@ body {
   padding-top: 30px;
   font-size: 30px;
   margin: 0;
+}
+
+.news-events .news-blocks div {
+  display: inline-block;
+  width: 15%;
+  margin: 10px 10px 10px 0px;
+  padding: 15px 20px;
+  background-color: grey;
 }
