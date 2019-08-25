@@ -9,27 +9,21 @@ body {
 }
 
 .logo {
-  background-color: black;
   width: 30%;
   float: left;
 }
 
 .logo img {
-  height: 80px;
+  height: 96px;
   border: none;
-  margin-left: 50px;
-}
-
-.logo img:hover {
-  background-color: white;
+  margin-left: 20px;
 }
 
 .nav {
   display: block;
   float: right;
   width: 70%;
-  height: 80px;
-  background-color: #000;
+  height: 96px;
   padding: 0;
   margin:0 auto;
   position: relative;
@@ -49,15 +43,11 @@ body {
   padding: 30.5px 20px;
   margin-right: -4px;
   color: white;
-}
-
-.nav ul li:hover {
-  background-color: white;
-  color: black;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .display {
-  background-color: grey;
   height: 100%;
 }
 
@@ -79,6 +69,33 @@ body {
   padding: 0;
 }
 
+.display .display-video {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.display .display-video video {
+  /* Make video to at least 100% wide and tall */
+ min-width: 100%;
+ min-height: 100%;
+
+ /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+ width: auto;
+ height: auto;
+
+ /* Center the video */
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
 .news-events {
   height: 50%;
   padding: 0px 100px;
@@ -96,8 +113,9 @@ body {
   display: inline-block;
   width: 15%;
   margin: 10px 10px 10px 0px;
-  padding: 15px 20px;
-  background-color: grey;
+  padding: 15px 15px;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .news-events .news-blocks div h4 {
