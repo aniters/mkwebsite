@@ -94,6 +94,7 @@ body {
 }
 
 .news-events .news-blocks div {
+  font-family: 'Roboto Mono', sans-serif;
   display: inline-block;
   width: 15%;
   margin: 10px 10px 10px 0px;
