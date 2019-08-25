@@ -79,3 +79,15 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.news-events {
+  height: 50%;
+  padding-left: 100px;
+}
+
+.news-events h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 30px;
+  font-size: 30px;
+  margin: 0;
+}
